@@ -20,7 +20,7 @@ int main()
     for (int i = 1; i < n; i++)
     {
         sum += i;
-        if (sum >= n)
+        if (sum > n)
         {
             cout << i - 1;
             break;
