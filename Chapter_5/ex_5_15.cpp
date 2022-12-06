@@ -5,7 +5,8 @@ int main()
 {
     int n;
     cin >> n;
-    if (n % 2 != 0)
+    if (n > 0 ){
+        if (n % 2 != 0)
     {
         cout << "The largest odd number divisor :" << n << endl;
     }
@@ -21,4 +22,8 @@ int main()
         }
         cout << "N" << endl;
     }
+    } else {
+        cout << "N" << endl;
+    }
+    
 }
